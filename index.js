@@ -76,3 +76,40 @@ console.log(aString !== aNumber);
 console.log(number2 > number3 && number2 >= number3); //true
 console.log(number2 > number3 || number2 < number3); //true
 console.log(!isLogin);//not is login -> false
+
+//perulangan
+//parameter 1 -> mulai -> 0
+//parameter 2 -> berakhir -> kurang dari 5
+//parameter 3 -> increment (j++) -> setiap perulangan j ditambah 1
+for(let j = 0; j < 5; j++){
+    console.log(j);
+}
+
+//parameter 1 -> mulai -> 0
+//parameter 2 -> berakhir -> lebih dari 0
+//parameter 3 -> decrement (j--) -> setiap perulangan j dikurangi 1
+for(let j = 5; j > 0; j--){
+    console.log(j);
+}
+
+const language = "Deutsch";
+
+if(language === "English"){
+    console.log("Good Morning");
+}
+
+
+
+if(language === "English"){
+    console.log("Good Morning");
+} else {
+    console.log("Selamat Pagi");
+}
+
+if(language === "English") {
+    console.log("Good Morning");
+} else if (language === "Deutsch"){
+    console.log("Guten Morgen");
+}else {
+    console.log("Selamat Pagi");
+}
